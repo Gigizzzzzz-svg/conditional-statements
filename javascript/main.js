@@ -72,5 +72,61 @@ function agecalculator(age){
 }
 
 //promocodes
-// Nairobi -- 25%-- 1000;
+// Nairobi -- 25%-- 20000;
 //karibu -- 15% --10000
+
+
+// A function called Checknumber ------ if the number is greater than 0 return "Postive number"
+// Number less than 0 return "Negative number"
+//otherwise  return "zero"
+
+
+  function Checknumber(number){
+    if(number >0){
+        console.log("positive")
+    }
+    else if(number<0){
+        console.log("Negative")
+    }
+    else{
+        console.log("zero")
+    }
+  }
+  console.log(Checknumber(10))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  document.getElementById("click").onclick=()=>{
+    let age = document.getElementById("age").value;
+    let money = document.getElementById("money").value;
+
+    if(age>=1 && age<=18){
+        document.getElementById("display").innerText = "allowance"+ money;
+    } else if (age> =19 && )
+  }
